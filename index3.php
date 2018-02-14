@@ -70,14 +70,14 @@
 		//clickDrag.remove();
 	});
 	button.addEventListener('click', function(e){
-		click.Color()
+		clickColor.push("#986928");
 	});
 	function addClick(x, y, dragging)
 	{
   		clickX.push(x);
   		clickY.push(y);
   		clickDrag.push(dragging);
-  		clickColor.push(curColor);
+  		//clickColor.push(curColor);
 	}
 	function redraw(){
   		context.clearRect(0, 0, context.canvas.width, context.canvas.height); // Clears the canvas
